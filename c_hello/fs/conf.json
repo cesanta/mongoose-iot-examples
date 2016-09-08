@@ -1,0 +1,30 @@
+{
+  "wifi": {
+    "ap": {
+      "enable": false
+    },
+    "sta": {
+      "enable": true,
+      "ssid": "Cesanta",
+      "pass": "EmbeddedCommunication",
+      "ip": "192.168.1.8",
+      "netmask": "255.255.255.0",
+      "gw": "192.168.1.1"
+    },
+    "Xsta": {
+      "enable": true,
+      "ssid": "Over_9000_Internets",
+      "pass": "Over_9000_Internets",
+      "ip": "192.168.11.8",
+      "netmask": "255.255.255.0",
+      "gw": "192.168.11.1"
+    }
+  },
+  "update": {
+    "update_to_any_version": true
+  },
+  "debug": {
+    "level": 2,
+    "stderr_uart": 0
+  }
+}
